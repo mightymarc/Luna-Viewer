@@ -15,7 +15,7 @@ cd ..
 
 @rem  Generator: VC80 = Visual C++ 2005, VC90 = Visual C++ 2008 (use this)
 @set GEN="VC80"
-python ./develop.py --type=%BUILDTYPE% -G "%GEN%" configure -DPACKAGE:BOOL=TRUE -DLL_TESTS:BOOL=FALSE
+python ./develop.py --type=%BUILDTYPE% -G "VC90" configure -DPACKAGE:BOOL=TRUE -DLL_TESTS:BOOL=FALSE
 @rem python ./develop.py --type=%BUILDTYPE% -G "%GEN%" build
 rem VERBOSE=1
 @pause
